@@ -43,3 +43,6 @@ Routing
 * angular-route.js should be additionally downloaded
 * Add new router and route it to a new Controller/View (/cities)
 * Visit new view using http://localhost:63342/AngularJS-Learning/src/example4/#/cities
+* (To access city array, make it a service)
+* Add new route city/:id and associate it with a new controller
+* Add navigation to go to Home and Cities list

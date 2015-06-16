@@ -1,3 +1,5 @@
-app.controller("CityController", ["$scope", function ($scope) {
-    $scope.cities = ['Chennai', 'Noida', 'Dubai', 'Mumbai', 'Philadelphia']
+app.controller("CityController", ["$scope", 'cities', "$routeParams", function ($scope, cities, $routeParams) {
+    cities.success(function (cities) {
+        $scope.city = cities[$routeParams.id - 1];
+    });
 }]);

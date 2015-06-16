@@ -10,6 +10,7 @@
 </head>
 <body ng-app="RouteExample">
 <H1>Routing example</H1>
+<a href="#/">Home</a> | <a href="#/cities">Cities</a>
 
 <div ng-controller="MainController">
     <div ng-view></div>
@@ -20,7 +21,13 @@
 
 <!-- Controllers -->
 <script src="js/controllers/MainController.js"></script>
+<script src="js/controllers/CityListController.js"></script>
 <script src="js/controllers/CityController.js"></script>
+
+<!-- Services -->
+<script src="js/services/cities.js"></script>
+
+<!-- Directives -->
 
 </body>
 </html>

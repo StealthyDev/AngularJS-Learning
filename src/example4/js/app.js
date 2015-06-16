@@ -7,8 +7,12 @@ app.config(function ($routeProvider) {
             templateUrl: 'views/home.html'
         })
         .when('/cities', {
-            controller: 'CityController',
+            controller: 'CityListController',
             templateUrl: 'views/cities.html'
+        })
+        .when('/city/:id', {
+            controller: 'CityController',
+            templateUrl: 'views/city.html'
         })
         .otherwise({
             redirectTo: '/'
