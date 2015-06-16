@@ -34,3 +34,6 @@ Services
 Note:
 * A static JSON file is available in S3 http://s3.amazonaws.com/codecademy-content/courses/ltp4/forecast-api/forecast.json
 * Copy of file is in data/forecast.js
+
+#Example4
+Routing
