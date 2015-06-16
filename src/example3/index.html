@@ -12,6 +12,8 @@
 <h1>Weather Forecast</h1>
 
 <div ng-controller="MainController">
+    <h3>{{fiveDay.city_name}}, {{fiveDay.country}}</h3>
+
     <div ng-repeat="day in fiveDay.days" style="padding-bottom: 20px;">
         <div class="day">{{day.datetime | date}}</div>
         <img ng-src="{{day.icon}}" style="height:25px;"/> {{day.high}} | {{day.low}}
