@@ -2,14 +2,17 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>AngularJS Learning</title>
+    <title>Route example</title>
 
     <!-- Include the AngularJS library -->
     <script src="../frameworks/angular.js"></script>
+    <script src="../frameworks/angular-route.js"></script>
 </head>
-<body ng-app="myApp">
+<body ng-app="RouteExample">
+<H1>Routing example</H1>
 
 <div ng-controller="MainController">
+    <div ng-view></div>
 </div>
 
 <!-- Modules -->

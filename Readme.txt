@@ -37,3 +37,7 @@ Note:
 
 #Example4
 Routing
+
+* Add new route (ngRoute as dependency to the application)
+* Route can now be configured using app.config
+* angular-route.js should be additionally downloaded
