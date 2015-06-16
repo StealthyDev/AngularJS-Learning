@@ -41,3 +41,5 @@ Routing
 * Add new route (ngRoute as dependency to the application)
 * Route can now be configured using app.config
 * angular-route.js should be additionally downloaded
+* Add new router and route it to a new Controller/View (/cities)
+* Visit new view using http://localhost:63342/AngularJS-Learning/src/example4/#/cities
