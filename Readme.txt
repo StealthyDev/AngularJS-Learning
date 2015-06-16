@@ -17,7 +17,8 @@ Setup an AngularJS app from scratch
 # Example2
 Directives
 
-* Create directive (app.directive, new HTML element)
+* Create directive (app.directive)
+* Add directive to view (new HTML element) - reusability
 * Add behaviour to directive by linking
 
 TODO: Read more about directives. What is link? *sarcastic*
