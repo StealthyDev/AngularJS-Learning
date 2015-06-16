@@ -1,0 +1,15 @@
+.likes, .dislikes {
+    display: inline;
+    cursor: pointer;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 30px;
+}
+
+.likes {
+    background: green;
+}
+
+.dislikes {
+    background: red;
+}

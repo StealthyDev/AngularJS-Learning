@@ -5,7 +5,7 @@ http://www.codecademy.com/en/learn/learn-angularjs
 
 Just run index.html
 
-# Part1:
+# Part1
 
 Setup an AngularJS app from scratch
 
@@ -14,4 +14,6 @@ Setup an AngularJS app from scratch
 * Use the app and controller in a view
 * Add model and display data in view
 * Add behaviour to the view
+
+# Part2
 
