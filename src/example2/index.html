@@ -8,10 +8,8 @@
 <body ng-app="AppMarketApp">
 
 <div ng-controller="MainController">
-    <div ng-repeat="app in apps">
-        <div class="card">
-            <app-info info="app"></app-info>
-        </div>
+    <div ng-repeat="app in apps" class="card">
+        <app-info info="app"></app-info>
     </div>
 </div>
 
