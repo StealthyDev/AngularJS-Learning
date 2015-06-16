@@ -10,6 +10,7 @@
 <div ng-controller="MainController">
     <div ng-repeat="app in apps" class="card">
         <app-info info="app"></app-info>
+        <install-app/>
     </div>
 </div>
 
@@ -21,6 +22,7 @@
 
 <!-- Directives -->
 <script src="js/directives/appInfo.js"></script>
+<script src="js/directives/installApp.js"></script>
 
 </body>
 </html>

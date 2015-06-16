@@ -18,4 +18,6 @@ Setup an AngularJS app from scratch
 Directives
 
 * Create directive (app.directive, new HTML element)
+* Add behaviour to directive by linking
 
+TODO: Read more about directives. What is link? *sarcastic*
