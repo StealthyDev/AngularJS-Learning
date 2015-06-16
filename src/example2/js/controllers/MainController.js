@@ -1,19 +1,19 @@
 app.controller("MainController", ["$scope", function ($scope) {
-    $scope.move = {
+    $scope.apps = [{
         title: 'MOVE',
         developer: 'MOVE, Inc.',
         price: 0.99
-    };
-
-    $scope.shutterbugg = {
+    }, {
         title: 'Shutterbugg',
         developer: 'Chico Dusty',
         price: 2.99
-    };
-
-    $scope.gameboard = {
+    }, {
         title: 'Gameboard',
         developer: 'Armando P.',
         price: 1.99
-    };
+    }, {
+        title: 'Forecast',
+        developer: 'Forecast',
+        price: 3.99
+    }];
 }]);
