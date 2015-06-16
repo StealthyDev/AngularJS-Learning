@@ -26,4 +26,11 @@ TODO: Read more about directives. What is link? *sarcastic*
 # Example3
 Services
 
-*
+* Create service (app.factory)
+* Use HTTP Get to get Ajax data ($http.get)
+* Use the service in Controller to get data - key part
+* Display data in view
+
+Note:
+* A static JSON file is available in S3 http://s3.amazonaws.com/codecademy-content/courses/ltp4/forecast-api/forecast.json
+* Copy of file is in data/forecast.js

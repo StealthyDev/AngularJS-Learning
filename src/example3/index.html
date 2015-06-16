@@ -7,9 +7,15 @@
     <!-- Include the AngularJS library -->
     <script src="../frameworks/angular.js"></script>
 </head>
-<body ng-app="WeatherForecast">
+<body ng-app="WeatherForecast" style="background-color: lightblue;">
+
+<h1>Weather Forecast</h1>
 
 <div ng-controller="MainController">
+    <div ng-repeat="day in fiveDay.days" style="padding-bottom: 20px;">
+        <div class="day">{{day.datetime | date}}</div>
+        <img ng-src="{{day.icon}}" style="height:25px;"/> {{day.high}} | {{day.low}}
+    </div>
 </div>
 
 <!-- Modules -->
@@ -17,6 +23,11 @@
 
 <!-- Controllers -->
 <script src="js/controllers/MainController.js"></script>
+
+<!-- Services -->
+<script src="js/services/forecast.js"></script>
+
+<!-- Directives -->
 
 </body>
 </html>
